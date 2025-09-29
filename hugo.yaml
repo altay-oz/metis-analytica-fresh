@@ -144,13 +144,13 @@ params:
     features:
     - title: Technological Landscape Analysis via TechLand
       text: Our expertise in statistical patent analysis helps you navigate the technological landscape. With TechLand we provide valuable insights that enable you to shape innovation strategies, make informed investment decisions, evaluate M&A opportunities, and identify market shifts. Ultimately, by providing valuable insights, we empower you to refine your strategy and optimize your investments, leading to more effective resource allocation.
-      icon: laptop-globe
+      # icon: laptop-globe
     - title: Training for Capacity Building
       text: We go beyond consultancy by empowering your team directly. Our workshops and initiatives are designed to integrate advanced tools like machine learning, natural language processing, and social network analysis into their decision-making processes. We also provide IP management and strategy courses to equip your team with the knowledge and skills needed to effectively manage your intellectual property assets.
-      icon: doc-sync
+      # icon: doc-sync
     - title: Professional Services with Customized Analytics
       text: For unique needs, we develop powerful, interactive dashboards tailored to your innovation initiatives. These dashboards allow you to track the success of your efforts and monitor multi-parameter ecosystems. This ensures you can continuously adjust your strategies based on comprehensive data insights, maximizing the impact of your innovation efforts.
-      icon: mobile-feed
+      # icon: mobile-feed
     # - title: TechLand Support and Maintenance Services
     #   text: We offer next business day support, subdomain, dedicated cloud deployment and provisioning, commissioning.
     #   icon: mobile-feed
