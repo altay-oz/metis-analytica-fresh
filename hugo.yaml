@@ -1,0 +1,225 @@
+baseURL: https://metis-analytica.com/
+languageCode: en-us
+title: metis analytica
+
+theme: 'hugo-fresh'
+
+googleAnalytics: G-SHSYR2Z8QH # Put in your tracking code without quotes
+# Disables warnings
+disableKinds:
+- taxonomy
+- term
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description: metis analytica is a firm specialized in technological landscape analysis
+  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+  # preloader: false
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/metisheader.png
+    link: /
+    width: 170
+    height: 56
+  font:
+    name: "Inria Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Technology landscape analysis made easy
+    # Hero subtitle (optional)
+    subtitle: Statistical patent analysis for efficient navigation of the technology landscape
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#section3"
+    # Hero image (from static/images/___)
+    image: metis_main.svg
+    # Footer logos (from static/images/logos/clients/*.svg)
+    # urls are optional
+    clientlogos:
+    # - logo: retina
+    #   url: https://www.retinadata.com/
+    # # - logo: savronik
+    #   url: https://savronik.com.tr/
+    # - logo: kromo
+  #     url: https://github.com/StefMa/hugo-fresh
+  #   - logo: infinite
+  #     url: https://hugo-fresh.vercel.app/
+  #   - logo: gutwork
+  #     url: https://bulma.io/
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: services
+    url: /#section2
+  # - title: pricing
+  #   url: /#section1
+  - title: product
+    sublinks:
+    - title: TechLand
+      url: /#section3
+    - title: TechLand features
+      url: /techlandfeatures
+    - title: Our roadmap
+      url: /roadmap
+  - title: contact
+    url: /#section5
+  - title: blog
+    url: /blog
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+    button: false
+  # sidebar:
+  #   # Logo (from static/images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
+  # section1:
+  #   title: Choose the perfect plan
+  #   subtitle: for your innovation strategy
+  #   tiles:
+  #   - title: Starter
+  #     icon: mouse-globe
+  #     text: Sign in, search and only see the results
+  #     url: https://demo.metis-analytica.com/
+  #     buttonText: Free use
+  #   - title: Research
+  #     icon: laptop-cloud
+  #     text: Network, clustering, AI, search history, download results
+  #     url: /#section5
+  #     buttonText: Contact us
+  #   - title: Business
+  #     icon: plug-cloud
+  #     text: Network, clustering, AI, search history, download results
+  #     url: https://linkedin.com/company/metis-analytica/
+  #     buttonText: Contact us
+  section2:
+    title: Services
+    subtitle: We offer a suite of services designed to help you transform your intellectual property and innovation strategy into a core competitive advantage.
+    features:
+    - title: Technological Landscape Analysis via TechLand
+      text: Our expertise in statistical patent analysis helps you navigate the technological landscape. With TechLand we provide valuable insights that enable you to shape innovation strategies, make informed investment decisions, evaluate M&A opportunities, and identify market shifts. Ultimately, by providing valuable insights, we empower you to refine your strategy and optimize your investments, leading to more effective resource allocation.
+      icon: laptop-globe
+    - title: Training for Capacity Building
+      text: We go beyond consultancy by empowering your team directly. Our workshops and initiatives are designed to integrate advanced tools like machine learning, natural language processing, and social network analysis into their decision-making processes. We also provide IP management and strategy courses to equip your team with the knowledge and skills needed to effectively manage your intellectual property assets.
+      icon: doc-sync
+    - title: Professional Services with Customized Analytics
+      text: For unique needs, we develop powerful, interactive dashboards tailored to your innovation initiatives. These dashboards allow you to track the success of your efforts and monitor multi-parameter ecosystems. This ensures you can continuously adjust your strategies based on comprehensive data insights, maximizing the impact of your innovation efforts.
+      icon: mobile-feed
+    # - title: TechLand Support and Maintenance Services
+    #   text: We offer next business day support, subdomain, dedicated cloud deployment and provisioning, commissioning.
+    #   icon: mobile-feed
+  section3:
+    title: TechLand
+    subtitle: Navigate the technology landscape
+    image: techland_main_page.png
+    buttonText: Get features
+    buttonLink: "/techlandfeatures"
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
+  section5:
+    title: Contact Us
+    subtitle: Let us know how we can help
+    buttonText: Send Message
+    action: https://formspree.io/f/xoqrargo
+    method: POST
+  footer:
+    # Logo (from static/images/logos/___)
+    logo: metisheader.png
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    # Icons are from Font Awesome
+    socialmedia:
+    - link: https://linkedin.com/company/metis-analytica/
+      icon: linkedin
+    - link: https://discord.com/techland
+      icon: discord
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: TechLand
+          link: /#section3
+        - text: TechLand features
+          link: /techlandfeatures
+        - text: Our roadmap
+          link: /roadmap
+      # column2:
+      #   title: "Docs"
+      #   links:
+      #   - text: Get started
+      #     link: /
+      #   - text: User guides
+      #     link: /
+      #   - text: Admin guide
+      #     link: /
+      #   - text: Developers
+      #     link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: All
+          link: /blog
+        - text: Latest
+          link: /blog/2025-02-07-cybersecurity
