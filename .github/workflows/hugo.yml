@@ -56,6 +56,10 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Add .nojekyll
+        run: touch public/.nojekyll
+      - name: Add CNAME file
+        run: echo "metis-analytica.com" > public/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
