@@ -1,6 +1,6 @@
 ---
 title: TechLand features
-subtitle: Revolutionize Your Patent and Innovation Strategy
+subtitle: Revolutionize your patent and innovation strategy
 include_footer: true
 sidebar: false
 ---

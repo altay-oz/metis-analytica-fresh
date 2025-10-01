@@ -13,8 +13,8 @@
 	  <h5 class="subtitle is-muted" style="margin-top: 20px;">{{ .Params.Author }}</h5>
 
 	  {{ if .Date }}
-        	  <h5 class="subtitle is-muted">{{ .Date.Format "January 2, 2006" }}</h5>
-	  {{ end }}
+        	  <h5 class="subtitle is-muted">{{ .Date | time.Format ":date_long"}}</h5>
+		  {{ end }}
 
 	  <div class="divider" style="margin-top: 20px; margin-bottom: 20px;"></div>
 
