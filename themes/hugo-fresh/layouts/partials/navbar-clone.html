@@ -78,14 +78,16 @@
         {{- end }}
         {{- end }}
 
-	{{ range .Site.Languages }}
-	{{ if ne .Lang $.Site.Language.Lang }}
-	<a href="{{ if eq .Lang "us" }}{{ $.Site.BaseURL }}{{ else }}{{ $.Site.BaseURL }}{{ .Lang }}/{{ end }}">
-	  {{ .Params.flag }}
-        </a>
-	{{ end }}
-	{{ end }}
-	
+	<div class="navbar-item">
+	  {{ range .Site.Languages }}
+	  {{ if ne .Lang $.Site.Language.Lang }}
+	  <a href="{{ if eq .Lang "us" }}{{ $.Site.BaseURL }}{{ else }}{{ $.Site.BaseURL }}{{ .Lang }}/{{ end }}">
+	    {{ .Params.flag }}
+          </a>
+	  {{ end }}
+	  {{ end }}
+	</div>
+
       </div>
     </div>
 </div>
