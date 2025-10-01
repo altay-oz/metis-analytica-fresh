@@ -16,6 +16,15 @@ brevets en intelligence stratégique claire. Simplifiez vos analyses,
 donnez de l'innitiative à votre équipe et propulsez votre innovation
 avec confiance.
 
+{{< rawhtml >}} 
+
+<video width="100%" controls autoplay style="border: 1px solid grey; border-radius: 5px;">
+<source src="/videos/techland_prom_v4.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la balise vidéo.
+</video>
+
+{{< /rawhtml >}}
+
 ## **Fonctionnalités clés conçues pour un impact stratégique :**
 
 #### **1. Consolidation complète des données**

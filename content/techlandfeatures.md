@@ -15,6 +15,15 @@ your essential tool, transforming complex patent data into clear,
 strategic intelligence. Streamline your analysis, empower your team,
 and drive your innovation forward with confidence.
 
+{{< rawhtml >}} 
+
+<video width="100%" controls autoplay style="border: 1px solid grey; border-radius: 5px;">
+<source src="/videos/techland_prom_v4.mp4" type="video/mp4">
+    Your browser does not support the video tag.  
+</video>
+
+{{< /rawhtml >}}
+
 ## **Key Features Designed for Strategic Impact:**
 
 #### **1. Comprehensive Data Consolidation**
